@@ -11,7 +11,7 @@ echo "Hello, $username!"
  # Display menu
 while true; do
     echo "       "
-    echo "COMP1236 Group Project Menu:"
+    echo "Application Menu:"
     echo "       "
     echo "A or 1) Find triangular numbers."
     echo "B or 2) Find numbers as the product of two even square numbers."
@@ -85,7 +85,7 @@ esac
 ;;
         D | 4)
             # Exit the program
-            echo "Exiting the COMP1236 Group Project Application. Goodbye, $username!"
+            echo "Exiting the Application. Goodbye, $username!"
             exit 0
             ;;
         *)
@@ -96,7 +96,7 @@ esac
     # Ask the user if they want to continue or exit
     read -p "Do you want to continue? (Y/N): " continue_choice
     if [ "$continue_choice" != "Y" ] && [ "$continue_choice" != "y" ]; then
-        echo "Exiting the COMP1236 Group Project Application. Goodbye, $username!"
+        echo "Exiting the Application. Goodbye, $username!"
         exit 0
 	fi
 	done
